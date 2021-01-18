@@ -36,20 +36,10 @@ namespace WindowsFormsApp1
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            CreateProject project = new CreateProject();
-            //project.create_project();
-            
-            /*
-            string subpath = @"J:\OneDrive\Actual\job\0_2021\_Test"; //+ {Properties.Settings.Default.number_project}
-            DirectoryInfo dirInfo = new DirectoryInfo(subpath);
-            if (!dirInfo.Exists)
-            {
-                dirInfo.Create();
-            }
-            dirInfo.CreateSubdirectory(subpath);
-            
-            MessageBox.Show("Проект успешно создан");
-            */
+            //Открытие окна создания проекта
+            AddProject AddProjectForm = new AddProject();
+            AddProjectForm.Show();
+
         }
 
         private void button4_Click(object sender, EventArgs e)

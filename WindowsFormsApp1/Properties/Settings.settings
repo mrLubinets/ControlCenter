@@ -27,7 +27,13 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="number_project" Type="System.String" Scope="User">
-      <Value Profile="(Default)">1</Value>
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="main_dir_project" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="dir_project" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
     </Setting>
   </Settings>
 </SettingsFile>

@@ -54,16 +54,21 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //сохранение данных пользователя для работы
-            Properties.Settings.Default.surname = textBox1.Text;
-            Properties.Settings.Default.name = textBox2.Text;
-            Properties.Settings.Default.patronymic = textBox3.Text;
-            Properties.Settings.Default.department = textBox4.Text;
-            Properties.Settings.Default.position = textBox5.Text;
-            Properties.Settings.Default.email = textBox6.Text;
-            Properties.Settings.Default.email_password = textBox7.Text;
-            //сохранение значений
-            Properties.Settings.Default.Save();
+                //сохранение данных пользователя для работы
+                Properties.Settings.Default.surname = textBox1.Text;
+                Properties.Settings.Default.name = textBox2.Text;
+                Properties.Settings.Default.patronymic = textBox3.Text;
+                Properties.Settings.Default.department = textBox4.Text;
+                Properties.Settings.Default.position = textBox5.Text;
+                Properties.Settings.Default.email = textBox6.Text;
+                Properties.Settings.Default.email_password = textBox7.Text;
+                //сохранение значений
+                Properties.Settings.Default.Save();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
