@@ -36,6 +36,10 @@ namespace WindowsFormsApp1
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            CreateProject project = new CreateProject();
+            //project.create_project();
+            
+            /*
             string subpath = @"J:\OneDrive\Actual\job\0_2021\_Test"; //+ {Properties.Settings.Default.number_project}
             DirectoryInfo dirInfo = new DirectoryInfo(subpath);
             if (!dirInfo.Exists)
@@ -45,6 +49,7 @@ namespace WindowsFormsApp1
             dirInfo.CreateSubdirectory(subpath);
             
             MessageBox.Show("Проект успешно создан");
+            */
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -88,6 +93,11 @@ namespace WindowsFormsApp1
 
         }
 
-        
+        private void button7_Click(object sender, EventArgs e)
+        {
+            //Открытие окна настроек
+            Settings SettingsForm = new Settings();
+            SettingsForm.Show();
+        }
     }
 }

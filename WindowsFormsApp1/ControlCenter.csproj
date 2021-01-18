@@ -105,6 +105,7 @@
     <Compile Include="Calc_cost.Designer.cs">
       <DependentUpon>Calc_cost.cs</DependentUpon>
     </Compile>
+    <Compile Include="CreateProject.cs" />
     <Compile Include="Mail.cs">
       <SubType>Form</SubType>
     </Compile>
